@@ -1,0 +1,27 @@
+print (" Digite o preço dos produtos ")
+feijão = int(input ("Preço do feijão"))
+arroz = int(input ("Preço do Arroz"))
+carne= int(input ("Preço da Carne"))
+Macarrão = int(input ("Preço do macarrão"))
+
+Produto1 = "Na média Nacional" if feijão >= 12 else "Acima da média Nacional"
+Produto2 = "Na média Nacional " if arroz >= 9 else "Acima da média Nacional"
+Produto3 = "Na média Nacional " if carne >= 30 else "Acima da média Nacional"
+Produto4 = "Na média Nacional " if Macarrão >= 5 else "Acima da média Nacional"
+
+print ("feijão" +" "+ Produto1 )
+print ("Arroz" +" "+ Produto2 )
+print ("Carne" +" "+ Produto3 )
+print ("Macarrão" +" "+ Produto4 )
+
+
+2) valor =int(input ("Digite o valor"))
+c = "positivo" if valor >= 0 else "negativo"
+ca = "par" if valor % 2 == 0 else "inpar"
+
+print ("o valor e"+" "+ c +" " +"e" +" " +ca)
+
+3)valor =int(input ("Digite a nota"))
+if valor == 10:"Aprovado com louvor"
+if valor >=7: "aprovado"
+else: "reprovado"
